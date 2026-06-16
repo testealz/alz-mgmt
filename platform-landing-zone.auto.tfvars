@@ -59,13 +59,13 @@ custom_replacements = {
     asc_export_resource_group_name               = "rg-asc-export-$${starter_location_01}"
     service_health_alerts_resource_group_name    = "rg-service-health-alerts-$${starter_location_01}"
 
-    # *Resource group names
-    management_resource_group_name               = "rg-management-$${starter_location_01}"
-    connectivity_hub_primary_resource_group_name = "rg-hub-$${starter_location_01}"
-    dns_resource_group_name                      = "rg-hub-dns-$${starter_location_01}"
-    ddos_resource_group_name                     = "rg-hub-ddos-$${starter_location_01}" # TODO 03 desabilitar
-    asc_export_resource_group_name               = "rg-asc-export-$${starter_location_01}"
-    service_health_alerts_resource_group_name    = "rg-service-health-alerts-$${starter_location_01}"
+    # Resource names management
+    log_analytics_workspace_name            = "law-management-$${starter_location_01}"
+    ddos_protection_plan_name               = "ddos-$${starter_location_01}"
+    ama_user_assigned_managed_identity_name = "uami-management-ama-$${starter_location_01}"
+    dcr_change_tracking_name                = "dcr-change-tracking"
+    dcr_defender_sql_name                   = "dcr-defender-sql"
+    dcr_vm_insights_name                    = "dcr-vm-insights"
 
     # *Resource names primary connectivity
     primary_virtual_network_name                                 = "vnet-hub-$${starter_location_01}"
